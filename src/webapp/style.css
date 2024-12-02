@@ -1,0 +1,68 @@
+* {
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, input {
+    margin: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.none > a:hover {
+    background-color: #111;
+}
+
+.selected, .selected > a:hover {
+    background-color: darkred;
+}
+
+table {
+    border: 3px solid grey;
+    margin: 10px;
+    width: 600px;
+}
+
+th, td {
+    height: 100px;
+    border: 1px solid grey;
+}
+
+.site {
+    width: 99%;
+}
+
+.col_1 {
+    width: 100px;
+}
+
+img {
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+td > a:hover > img {
+    box-shadow: 0px 0px 10px 10px darkred;
+}
+
+
+
